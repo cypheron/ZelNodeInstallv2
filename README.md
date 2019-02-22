@@ -36,7 +36,7 @@ or Digital Ocean: https://goo.gl/i3HFWr
 ```bash
 adduser <YOURUSERNAME>
 usermod -aG sudo <YOURUSERNAME>
-reboot -n
+su - <YOURUSERNAME>
 ```
 
 3) **Follow instructions to Create ZelNode Key using ZelCore Wallet**
@@ -47,9 +47,7 @@ Launch Full Node Wallet & go to **Tools | Open ZelNode Management | Create ZelNo
 
 Click ZelNode Key to copy to clipboard
 
-4) **Download scrypt & begin installation of ZelNode**
-
-**PLEASE BE SURE YOU ARE LOGGED IN AS YOUR USERNAME BEFORE RUNNING THIS SCRIPT (NOT SU)**
+4) **(Back on VPS) Download scrypt & begin installation of ZelNode**
 
 ```bash
 cd ~
