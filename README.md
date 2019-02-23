@@ -36,7 +36,7 @@ or Digital Ocean: https://goo.gl/i3HFWr
 ```bash
 adduser <YOURUSERNAME>
 usermod -aG sudo <YOURUSERNAME>
-su - <YOURUSERNAME>
+exec su - <YOURUSERNAME>
 ```
 
 3) **Follow instructions to Create ZelNode Key using ZelCore Wallet**
